@@ -34,6 +34,7 @@ require('./app/routes/upload.routes')(app);
 require('./app/routes/satellite.routes')(app);
 require('./app/routes/asset.routes')(app);
 require('./app/routes/shoreline.routes')(app);
+require('./app/routes/transects.routes')(app);
 require('./app/routes/queue.routes')(app);
 
 // set port, listen for requests

@@ -49,3 +49,14 @@ http://localhost:8086/shoreline/api/shoreline
 #download one file http://localhost:8086/shoreline/api/shoreline/fresh_gw (1).sld
 
 #Delete http://localhost:8086/shoreline/api/shoreline/fresh_gw (1).sld
+
+
+###upload transects###
+http://localhost:8086/shoreline/api/transects
+
+#get files http://localhost:8086/shoreline/api/transects
+
+#download one file http://localhost:8086/shoreline/api/transects/fresh_gw (1).sld
+
+#Delete http://localhost:8086/shoreline/api/transects/fresh_gw (1).sld
+
