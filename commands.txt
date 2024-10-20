@@ -1,0 +1,51 @@
+#Data Upload API
+Login to the server http://localhost:8086/shoreline/api/auth/signin
+{
+    "username":"administrator",
+    "password":"3fZd6x68FqDgi88cyN8P!"
+}
+
+###upload shoreline change analysis###
+http://localhost:8086/shoreline/api/upload
+
+#get files http://localhost:8086/shoreline/api/files
+
+#download one file http://localhost:8086/shoreline/api/files/square.png
+
+#Delete http://localhost:8086/shoreline/api/files/square.png
+
+###upload satellite imagery###
+http://localhost:8086/shoreline/api/satellite
+
+#get files http://localhost:8086/shoreline/api/satellite_file
+
+#download one file http://localhost:8086/shoreline/api/satellite_file/fresh_gw (1).sld
+
+#Delete http://localhost:8086/shoreline/api/satellite_file/fresh_gw (1).sld
+
+###upload assets###
+http://localhost:8086/shoreline/api/assets
+
+#get files http://localhost:8086/shoreline/api/assets
+
+#download one file http://localhost:8086/shoreline/api/assets/fresh_gw (1).sld
+
+#Delete http://localhost:8086/shoreline/api/assets/fresh_gw (1).sld
+
+###upload assets###
+http://localhost:8086/shoreline/api/assets
+
+#get files http://localhost:8086/shoreline/api/assets
+
+#download one file http://localhost:8086/shoreline/api/assets/fresh_gw (1).sld
+
+#Delete http://localhost:8086/shoreline/api/assets/fresh_gw (1).sld
+
+###upload shoreline###
+http://localhost:8086/shoreline/api/shoreline
+
+#get files http://localhost:8086/shoreline/api/shoreline
+
+#download one file http://localhost:8086/shoreline/api/shoreline/fresh_gw (1).sld
+
+#Delete http://localhost:8086/shoreline/api/shoreline/fresh_gw (1).sld
